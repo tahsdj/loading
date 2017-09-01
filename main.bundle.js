@@ -10,37 +10,81 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 var member = [
 	{
-		name: 'tsai'
+		name: '羅于晴',
+		work: '工作分配,簡報', 
+		skills: '金工,木工,皮革 , SW, Rhions',
+		msg: '感恩的心',
+		imgUrl: './img/member0.png'
 	},
 	{
-		name: 'tsai'
+		name: '蔡帛融',
+		work: '網站架設,資料視覺化', 
+		skills: '繪畫、影片剪輯',
+		msg: '我要回美國～',
+		imgUrl: './img/member1.png'
 	},
 	{
-		name: 'tsai'
+		name: '李雨珊',
+		work: '文化與觀光嚮導', 
+		skills: ' Ai,威力導演',
+		msg: '全盤端走～',
+		imgUrl: './img/member2.png'
 	},
 	{
-		name: 'tsai'
+		name: '張家瑜',
+		work: '攝影、影片剪輯', 
+		skills: '日文、智財相關法規',
+		msg: '回家倒垃圾',
+		imgUrl: './img/member3.png'
 	},
 	{
-		name: 'tsai'
+		name: '黃昱豪',
+		work: '田野調查 , 口頭報告', 
+		skills: 'Ps、口說',
+		msg: '我家還沒搬完',
+		imgUrl: './img/member4.png'
 	},
 	{
-		name: 'tsai'
+		name: '陳靜淳',
+		work: '繪畫，展版製作', 
+		skills: 'Ai、Ps、平面繪畫、SW',
+		msg: '我有事先走了',
+		imgUrl: './img/member5.png'
 	},
 	{
-		name: 'tsai'
+		name: '尤威理',
+		work: '簡報,資訊圖像化', 
+		skills: '簡報設計,資訊設計',
+		msg: '很臭，不要',
+		imgUrl: './img/member6.png'
 	},
 	{
-		name: 'tsai'
+		name: '邱芊頻',
+		work: '排版編輯、文字內容', 
+		skills: ' Ai, Id, 攝影,日文',
+		msg: '我是屁孩',
+		imgUrl: './img/member7.png'
+	},	
+	{
+		name: '連建榮',
+		work: '攝影,影片剪輯', 
+		skills: 'Ai, Ps, 土木',
+		msg: '我要晾衣服',
+		imgUrl: './img/member8.png'
 	},
 	{
-		name: 'tsai'
+		name: '林亞逸',
+		work: '會議記錄,財務管理', 
+		skills: 'Ai, Ps, 土木',
+		msg: '....XD',
+		imgUrl: './img/member9.png'
 	},
 	{
-		name: 'tsai'
-	},
-	{
-		name: 'tsai'
+		name: '林菀婷',
+		work: '簡報,企劃發想', 
+		skills: '簡報設計,創意思考',
+		msg: '我要玩楓之谷',
+		imgUrl: './img/member10.png'
 	},
 ]
 
@@ -127,7 +171,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "html, body {\n  border: 0px;\n  margin: 0px;\n  padding: 0px;\n  overflow-x: hidden;\n  background-color: #f7eddf; }\n\n#app {\n  width: 100%;\n  height: 100%;\n  position: relative; }\n  #app #banner {\n    position: fixed;\n    width: 100vw;\n    left: 0px;\n    top: 0px;\n    z-index: -1; }\n  #app .mainBox {\n    display: inline-flex;\n    width: 100vw;\n    max-width: 1800px;\n    position: relative; }\n    #app .mainBox .leftSide {\n      display: flex;\n      width: 50%; }\n      #app .mainBox .leftSide .leftBox {\n        display: flex;\n        width: 60%;\n        height: 600px;\n        flex-direction: column;\n        justify-content: flex-start; }\n        #app .mainBox .leftSide .leftBox .logoBox {\n          display: flex;\n          width: calc(100% - 60px);\n          justify-content: center;\n          padding: 40px 30px;\n          background-color: white; }\n          #app .mainBox .leftSide .leftBox .logoBox img {\n            width: calc(100% - 20px);\n            max-width: 180px;\n            align-self: center; }\n      #app .mainBox .leftSide .rightBox {\n        display: flex;\n        width: 40%; }\n        #app .mainBox .leftSide .rightBox .puzzleBox {\n          display: flex;\n          width: calc(100% - 16px);\n          height: 400px;\n          justify-content: center;\n          align-items: center;\n          align-self: flex-start;\n          background-color: rgba(3, 53, 81, 0.5);\n          border: 8px solid white;\n          font-size: 25px;\n          color: white;\n          transition: background-color 0.5s; }\n          #app .mainBox .leftSide .rightBox .puzzleBox:hover {\n            background-color: rgba(3, 53, 81, 0.7); }\n    #app .mainBox .rightSide {\n      display: flex;\n      flex-direction: column;\n      width: 50%; }\n      #app .mainBox .rightSide .topBox {\n        display: flex;\n        width: 100%;\n        height: auto; }\n        #app .mainBox .rightSide .topBox .experienceBox {\n          display: flex;\n          width: 80%;\n          height: 400px;\n          align-self: flex-start;\n          background-color: white;\n          position: relative; }\n          #app .mainBox .rightSide .topBox .experienceBox .container {\n            position: absolute;\n            display: flex;\n            bottom: 0px;\n            left: 0px;\n            margin: 10px;\n            width: calc(100% - 20px);\n            height: 300px;\n            justify-content: center;\n            align-items: center; }\n            #app .mainBox .rightSide .topBox .experienceBox .container #experienceImg {\n              position: absolute;\n              top: 0px;\n              left: 0px;\n              width: 100%;\n              height: 100%; }\n            #app .mainBox .rightSide .topBox .experienceBox .container h2 {\n              color: white;\n              z-index: 1; }\n      #app .mainBox .rightSide .downBox {\n        display: flex;\n        width: 100%;\n        flex-direction: row-reverse; }\n        #app .mainBox .rightSide .downBox .picnicBox {\n          display: inline-flex;\n          width: 60%;\n          height: 200px;\n          background-color: white;\n          justify-content: center;\n          align-items: center; }\n          #app .mainBox .rightSide .downBox .picnicBox .title {\n            display: flex;\n            width: 25%;\n            justify-content: center;\n            align-items: center; }\n            #app .mainBox .rightSide .downBox .picnicBox .title > div {\n              font-size: 22px;\n              width: 30px;\n              padding: 5px;\n              text-align: center;\n              border: 1px solid black; }\n          #app .mainBox .rightSide .downBox .picnicBox #picnicBasket {\n            width: calc(75% - 20px);\n            padding: 10px;\n            height: 180px; }\n\n.membersBoard {\n  display: flex;\n  width: calc(100% - 100px);\n  flex-direction: column;\n  max-width: 1800px;\n  padding: 150px 50px; }\n  .membersBoard .members {\n    display: inline-flex;\n    width: 100%;\n    height: 250px;\n    border: 1px solid;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    align-items: flex-end; }\n    .membersBoard .members .member {\n      display: flex;\n      width: 100px;\n      height: 200px;\n      border: 1px solid;\n      flex-direction: column;\n      transform: translateY(50px);\n      transition: transform 0.4s; }\n      .membersBoard .members .member:hover {\n        transform: translateY(0px); }\n        .membersBoard .members .member:hover .intro {\n          opacity: 1;\n          transform: translateY(-20px); }\n        .membersBoard .members .member:hover img {\n          opacity: 1; }\n      .membersBoard .members .member img {\n        width: 100%;\n        opacity: 0.5; }\n      .membersBoard .members .member .intro {\n        display: flex;\n        width: calc(100% - 20px);\n        padding: 10px;\n        height: 100px;\n        margin-top: 15px;\n        border: 1px solid;\n        flex-wrap: wrap;\n        opacity: 0;\n        transition: all 1s; }\n", ""]);
+exports.push([module.i, "html, body {\n  border: 0px;\n  margin: 0px;\n  padding: 0px;\n  overflow-x: hidden;\n  background-color: #f7eddf; }\n\nbody {\n  overflow-y: hidden; }\n\n#app {\n  width: 100%;\n  height: 100%;\n  position: relative; }\n  #app #banner {\n    position: fixed;\n    width: 100vw;\n    left: 0px;\n    top: 0px;\n    z-index: -1; }\n  #app .mainBox {\n    display: inline-flex;\n    width: 100vw;\n    max-width: 1800px;\n    position: relative; }\n    #app .mainBox .leftSide {\n      display: flex;\n      width: 50%; }\n      #app .mainBox .leftSide .leftBox {\n        display: flex;\n        width: 60%;\n        height: 600px;\n        flex-direction: column;\n        justify-content: flex-start; }\n        #app .mainBox .leftSide .leftBox .logoBox {\n          display: flex;\n          width: calc(100% - 60px);\n          justify-content: center;\n          padding: 40px 30px;\n          background-color: white; }\n          #app .mainBox .leftSide .leftBox .logoBox img {\n            width: calc(100% - 20px);\n            max-width: 180px;\n            align-self: center; }\n      #app .mainBox .leftSide .rightBox {\n        display: flex;\n        width: 40%; }\n        #app .mainBox .leftSide .rightBox .puzzleBox {\n          display: flex;\n          width: calc(100% - 16px);\n          height: 400px;\n          justify-content: center;\n          align-items: center;\n          align-self: flex-start;\n          background-color: rgba(3, 53, 81, 0.5);\n          border: 8px solid white;\n          font-size: 25px;\n          color: white;\n          transition: background-color 0.5s; }\n          #app .mainBox .leftSide .rightBox .puzzleBox:hover {\n            background-color: rgba(3, 53, 81, 0.7); }\n    #app .mainBox .rightSide {\n      display: flex;\n      flex-direction: column;\n      width: 50%; }\n      #app .mainBox .rightSide .topBox {\n        display: flex;\n        width: 100%;\n        height: auto; }\n        #app .mainBox .rightSide .topBox .experienceBox {\n          display: flex;\n          width: 80%;\n          height: 400px;\n          align-self: flex-start;\n          background-color: white;\n          position: relative; }\n          #app .mainBox .rightSide .topBox .experienceBox .container {\n            position: absolute;\n            display: flex;\n            bottom: 0px;\n            left: 0px;\n            margin: 10px;\n            width: calc(100% - 20px);\n            height: 300px;\n            justify-content: center;\n            align-items: center; }\n            #app .mainBox .rightSide .topBox .experienceBox .container #experienceImg {\n              position: absolute;\n              top: 0px;\n              left: 0px;\n              width: 100%;\n              height: 100%; }\n            #app .mainBox .rightSide .topBox .experienceBox .container h2 {\n              color: white;\n              z-index: 1; }\n      #app .mainBox .rightSide .downBox {\n        display: flex;\n        width: 100%;\n        flex-direction: row-reverse; }\n        #app .mainBox .rightSide .downBox .picnicBox {\n          display: inline-flex;\n          width: 60%;\n          height: 200px;\n          background-color: white;\n          justify-content: center;\n          align-items: center; }\n          #app .mainBox .rightSide .downBox .picnicBox .title {\n            display: flex;\n            width: 25%;\n            justify-content: center;\n            align-items: center; }\n            #app .mainBox .rightSide .downBox .picnicBox .title > div {\n              font-size: 22px;\n              width: 30px;\n              padding: 5px;\n              text-align: center;\n              border: 1px solid black; }\n          #app .mainBox .rightSide .downBox .picnicBox #picnicBasket {\n            width: calc(75% - 20px);\n            padding: 10px;\n            height: 180px; }\n\n.membersBoard {\n  display: flex;\n  width: calc(100% - 100px);\n  flex-direction: column;\n  max-width: 1800px;\n  padding: 150px 50px 250px 50px; }\n  .membersBoard .members {\n    display: inline-flex;\n    width: 100%;\n    height: 250px;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    align-items: flex-end; }\n    .membersBoard .members .member {\n      position: relative;\n      display: flex;\n      width: 100px;\n      height: 200px;\n      flex-direction: column;\n      transform: translateY(50px);\n      transition: transform 0.4s; }\n      .membersBoard .members .member:hover {\n        transform: translateY(0px); }\n        .membersBoard .members .member:hover .intro {\n          opacity: 1;\n          transform: translateY(-15px); }\n        .membersBoard .members .member:hover img {\n          opacity: 1; }\n        .membersBoard .members .member:hover .arrow-box {\n          opacity: 1; }\n      .membersBoard .members .member .arrow-box {\n        position: absolute;\n        display: flex;\n        background-color: white;\n        right: -40px;\n        top: -40px;\n        width: 90px;\n        height: 50px;\n        border-radius: 10px;\n        justify-content: center;\n        align-items: center;\n        opacity: 0;\n        transition: all 0.5s; }\n        .membersBoard .members .member .arrow-box .arrow {\n          position: absolute;\n          border: transparent;\n          border-top: white;\n          border-style: solid;\n          border-width: 10px;\n          height: 0;\n          width: 0;\n          top: 100%;\n          right: 50px; }\n      .membersBoard .members .member img {\n        width: 100%;\n        opacity: 0.5; }\n      .membersBoard .members .member .intro {\n        display: flex;\n        width: calc(100%);\n        padding: 10px;\n        margin-top: 15px;\n        flex-wrap: wrap;\n        opacity: 0;\n        transition: all 1s; }\n        .membersBoard .members .member .intro h3 {\n          margin-bottom: 0px; }\n        .membersBoard .members .member .intro h5 {\n          margin: 5px 0px; }\n", ""]);
 
 // exports
 

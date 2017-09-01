@@ -37,7 +37,7 @@
 								野餐
 							</div>
 						</div>
-						<img src="./img/basket.jpg" alt="" id="picnicBasket">
+						<img src="./img/picnic.jpg" alt="" id="picnicBasket">
 					</div>
 				</div>
 			</div>
@@ -46,11 +46,17 @@
 			<h2>Members</h2>
 			<div class="members">
 				<div class="member" v-for="(member,index) in members">
-					<img src="./img/member0.png" alt="">
+					<div class="arrow-box">
+						<h5>{{member.msg}}</h5>
+						<div class="arrow"></div>
+					</div>
+					<img :src="member.imgUrl" alt="">
 					<div class="intro">
-						testadasdada
-						asdadasd
-						asdadasdasdasdas
+						<h3>{{member.name}}</h3>
+						<div class="content">
+							<h5>Works:{{member.work}}</h5>
+							<h5>Skills:{{member.skills}}</h5>
+						</div>
 					</div>
 				</div>
 			</div>
