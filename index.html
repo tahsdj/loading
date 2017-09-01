@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loading</title>
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div id="app">
+		<!--<img id = "banner" src="./img/picnic_bg.jpg" alt="">-->
+		<div class="mainBox">
+			<div class="leftSide box">
+				<div class="leftBox">
+					<div class="logoBox" :style="mainBoardCss.logo">
+						<img src="img/logo.png" alt="">	
+					</div>
+				</div>
+				<div class="rightBox">
+					<div class="puzzleBox" :style="mainBoardCss.puzzleBox">
+						行程拼圖
+					</div>
+				</div>
+			</div>
+			<div class="rightSide box">
+				<div class="topBox">
+					<div class="experienceBox" :style="mainBoardCss.experienceBox">
+						<div class="container">
+							<img id="experienceImg" src="./img/experience.jpg" alt="">
+							<h2>在地主題體驗</h2>
+						</div>
+					</div>
+				</div>
+				<div class="downBox">
+					<div class="picnicBox" :style="mainBoardCss.picnicBox">
+						<div class="title">
+							<div>
+								野餐
+							</div>
+						</div>
+						<img src="./img/basket.jpg" alt="" id="picnicBasket">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="membersBoard">
+			<h2>Members</h2>
+			<div class="members">
+				<div class="member" v-for="(member,index) in members">
+					<img src="./img/member0.png" alt="">
+					<div class="intro">
+						testadasdada
+						asdadasd
+						asdadasdasdasdas
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="vendor.bundle.js"></script>
+	<script src="main.bundle.js">
+	</script>
+</body>
+</html>
