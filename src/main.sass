@@ -7,7 +7,8 @@ html,body
 	background-color: #f7eddf
 	*
 		//border: 1px solid 
-
+body
+	overflow-y: hidden
 #app
 	width: 100%
 	height: 100%
@@ -128,20 +129,21 @@ html,body
 	width: calc(100% - 100px)
 	flex-direction: column
 	max-width: 1800px
-	padding: 150px 50px
+	padding: 150px 50px 250px 50px
 	.members
 		display: inline-flex
 		width: 100%
 		height: 250px
-		border: 1px solid
+		//border: 1px solid
 		flex-wrap: wrap
 		justify-content: space-around
 		align-items: flex-end
 		.member
+			position: relative
 			display: flex
 			width: 100px
 			height: 200px
-			border: 1px solid
+			//border: 1px solid
 			flex-direction: column
 			transform: translateY(50px)
 			transition: transform 0.4s
@@ -149,22 +151,50 @@ html,body
 				transform: translateY(0px)
 				.intro
 					opacity: 1
-					transform: translateY(-20px)
+					transform: translateY(-15px)
 				img
 					opacity: 1
+				.arrow-box
+					opacity: 1
+			.arrow-box
+				position: absolute
+				display: flex
+				background-color: white
+				right: -40px
+				top: -40px
+				width: 90px
+				height: 50px
+				border-radius: 10px
+				justify-content: center
+				align-items: center
+				opacity: 0
+				transition: all 0.5s
+
+				.arrow
+					position: absolute
+					border: transparent
+					border-top: white
+					border-style: solid
+					border-width: 10px
+					height: 0
+					width: 0
+					top: 100%
+					right: 50px
 			img
 				width: 100%
 				opacity: 0.5
 			.intro
 				display: flex
-				width: calc(100% - 20px)
+				width: calc(100%)
 				padding: 10px
-				height: 100px
 				margin-top: 15px
-				border: 1px solid
 				flex-wrap: wrap
 				opacity: 0
 				transition: all 1s
+				h3
+					margin-bottom: 0px
+				h5
+					margin: 5px 0px
 
 
 

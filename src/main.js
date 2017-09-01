@@ -2,37 +2,81 @@ import './main.sass'
 
 var member = [
 	{
-		name: 'tsai'
+		name: '羅于晴',
+		work: '工作分配,簡報', 
+		skills: '金工,木工,皮革 , SW, Rhions',
+		msg: '感恩的心',
+		imgUrl: './img/member0.png'
 	},
 	{
-		name: 'tsai'
+		name: '蔡帛融',
+		work: '網站架設,資料視覺化', 
+		skills: '繪畫、影片剪輯',
+		msg: '我要回美國～',
+		imgUrl: './img/member1.png'
 	},
 	{
-		name: 'tsai'
+		name: '李雨珊',
+		work: '文化與觀光嚮導', 
+		skills: ' Ai,威力導演',
+		msg: '全盤端走～',
+		imgUrl: './img/member2.png'
 	},
 	{
-		name: 'tsai'
+		name: '張家瑜',
+		work: '攝影、影片剪輯', 
+		skills: '日文、智財相關法規',
+		msg: '回家倒垃圾',
+		imgUrl: './img/member3.png'
 	},
 	{
-		name: 'tsai'
+		name: '黃昱豪',
+		work: '田野調查 , 口頭報告', 
+		skills: 'Ps、口說',
+		msg: '我家還沒搬完',
+		imgUrl: './img/member4.png'
 	},
 	{
-		name: 'tsai'
+		name: '陳靜淳',
+		work: '繪畫，展版製作', 
+		skills: 'Ai、Ps、平面繪畫、SW',
+		msg: '我有事先走了',
+		imgUrl: './img/member5.png'
 	},
 	{
-		name: 'tsai'
+		name: '尤威理',
+		work: '簡報,資訊圖像化', 
+		skills: '簡報設計,資訊設計',
+		msg: '很臭，不要',
+		imgUrl: './img/member6.png'
 	},
 	{
-		name: 'tsai'
+		name: '邱芊頻',
+		work: '排版編輯、文字內容', 
+		skills: ' Ai, Id, 攝影,日文',
+		msg: '我是屁孩',
+		imgUrl: './img/member7.png'
+	},	
+	{
+		name: '連建榮',
+		work: '攝影,影片剪輯', 
+		skills: 'Ai, Ps, 土木',
+		msg: '我要晾衣服',
+		imgUrl: './img/member8.png'
 	},
 	{
-		name: 'tsai'
+		name: '林亞逸',
+		work: '會議記錄,財務管理', 
+		skills: 'Ai, Ps, 土木',
+		msg: '....XD',
+		imgUrl: './img/member9.png'
 	},
 	{
-		name: 'tsai'
-	},
-	{
-		name: 'tsai'
+		name: '林菀婷',
+		work: '簡報,企劃發想', 
+		skills: '簡報設計,創意思考',
+		msg: '我要玩楓之谷',
+		imgUrl: './img/member10.png'
 	},
 ]
 
