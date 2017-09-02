@@ -62,7 +62,7 @@ var member = [
 		name: '邱芊頻',
 		work: '排版編輯、文字內容', 
 		skills: ' Ai, Id, 攝影,日文',
-		msg: '我是屁孩',
+		msg: '從缺',
 		imgUrl: './img/member7.png'
 	},	
 	{
