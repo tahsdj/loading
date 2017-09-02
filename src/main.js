@@ -72,7 +72,7 @@ var member = [
 		imgUrl: './img/member9.png'
 	},
 	{
-		name: '林菀婷',
+		name: '林莞婷',
 		work: '簡報,企劃發想', 
 		skills: '簡報設計,創意思考',
 		msg: '我要玩楓之谷',
